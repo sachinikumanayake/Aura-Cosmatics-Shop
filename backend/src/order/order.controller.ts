@@ -12,8 +12,8 @@ import {
 } from '@nestjs/common';
 import { OrderService } from './order.service';
 import { CreateOrderDto } from './dto/create-order.dto';
-import { UpdateOrderDto } from './dto/update-order.dto';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard'; // ඔයාගේ Auth Guard එකේ Path එක බලන්න
+import { UpdateOrderDto } from './dto/update-order.dto'
+import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 @Controller('order')
 export class OrderController {
